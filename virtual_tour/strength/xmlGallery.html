@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="flashdetect.js"></script>
+    	<style type="text/css">
+		<!--
+			body{margin:0;	padding:0; background-color:#FFC000;}
+		-->
+	</style>
+	<link href="../../styleNew.css" rel="stylesheet" type="text/css">	
+</head>
+<body>
+	<div id="flashcontent" style="height:575px; width:100%;"><br><br>
+		<table>
+			<tr>
+				<td>
+					<center><div class="Heading1Text">Viewing Club Photos requires the use of Flash Player 6.<br> Please install this component from <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" >www.adobe.com</a>.</div></center>
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<script type="text/javascript">
+		var so = new SWFObject("xmlGallery.swf", "gallery", "100%", "100%", "6", "#FFC000");
+		so.addVariable("file_to_load", "data.xml")			
+		so.addParam("wmode", "transparent");			
+		so.write("flashcontent");
+	</script>
+
+</body>
+</html>

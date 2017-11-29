@@ -1,0 +1,112 @@
+body					
+	{ 
+		padding:0px; 
+		margin:0px; 
+		background:url(images/backgroundGradient.gif) repeat-x, #883A35;
+	}
+
+table, li, a
+	{
+		font-family:Tahoma;
+		font-size:16px;
+		line-height:normal;
+		color:#A1AFBB;
+		text-align: left;
+	}
+	
+table { 
+		border-spacing:0; 
+		border-collapse:collapse;  
+		vertical-align:top;		
+		width:100%;
+    }	
+
+td { vertical-align:top;}
+	
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+
+.Heading1Text			{ font-size:24px; color:#FFFFFF; font-weight:bold; }
+.Heading1Text a			{ font-size:24px; color:#FFFFFF; font-weight:bold; }
+.Heading2Text			{ font-size:20px; color:#FFFFFF; font-weight:bold; }
+.Heading3Text			{ font-size:18px; color:#FFFFFF; font-weight:bold; }
+
+.banner1Text			{ font-size: 34px; color: yellow; font-weight: bold; text-align: center; }
+.banner2Text			{ font-size: 28px; color: yellow; font-weight: bold; text-align: center; }
+.copyrightText			{ font-size:10px; padding-top:5px; }
+
+.BasicPlanText		   	{ font-size:18px; color:#FFFFFF; font-weight:bold; text-align:center; background-color: green; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px; height: 100px;}
+.AllInclusivePlanText 	{ font-size:28px; color:yellow; font-weight:bold; text-align:center; background-color: black; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px; height: 100px;}
+.PlanAmount 		  	  	{ font-size:40px; color:#000000; font-weight:bold; text-align:center; background-color: white; padding-top: 10px;}	
+.PlanDetails 		  	{ font-size:14px; color:#000000; font-weight:bold; text-align:center; background-color: white; padding-left: 5px; padding-right: 5px; white-space: nowrap;}		
+.PlanDetails a        		{ font-size:14px; color:#000000; font-weight:bold; text-align:center; background-color: white; text-decoration: underline; font-style: italic;}		
+.PlanDetails a:hover  	{ text-decoration: none;}		
+
+.LogoBox	        		{ border:10px solid #6F2E2A; background-color:#FFFFFF; background-image: url(images/logo.jpg); background-position: center; height: 120px; background-repeat: no-repeat; }
+
+span strong 				{ color:#FFFFFF}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.liquidBtn a{
+	float: left;
+	height: 40px;
+	background: url(images/btn_stretch.png) repeat-x left top;
+	line-height: 40px;
+	padding: 0 0px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold; 
+	text-decoration: none;
+	text-align: center;
+	background-color: red; 	
+	white-space: nowrap;
+	width: 100%;
+}
+
+.liquidBtn a:hover { text-decoration:underline; }
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.liquidBtn150px a{
+	float: left;
+	height: 40px;
+	background: url(images/btn_stretch.png) repeat-x left top;
+	line-height: 40px;
+	padding: 0 5px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold; 
+	text-decoration: none;
+	width: 150px;
+	text-align: center;
+	background-color: red; 
+}
+
+.liquidBtn150Px a:hover { text-decoration:underline; }
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* Navigation Styling																						  */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+#nav 					{ height:36px; position:relative; font-family:Tahoma; z-index:500; background: url(images/menuSpacer.gif); text-align: center}
+#nav .select				{ margin:0; padding:0; list-style:none; white-space:nowrap;}
+#nav li 					{ float:left; background:url(images/menu.gif);}
+#nav li a 					{ font-size:12px; }
+#nav .select a 			{ display:block; height:36px; float:left; padding:0 0 0 2px; text-decoration:underline; line-height:30px; white-space:nowrap; color:#ddd; }
+#nav .select a b 			{ display:block; padding:0 30px 10px 15px; }
+#nav .select li:hover a  	{ background: url(images/menuHover.gif); padding:0 0 0 2px; line-height:30px; cursor:pointer; color:#fff; }
+#nav .select li:hover a b 	{ display:block; padding:0 30px 9px 15px; background:url(blank_over_p.gif) right top; cursor:pointer;}
+
+#menu-outer 				{ height: 36px; background: url(images/menuSpacer.gif) repeat-x;}
+ul#horizontal-list 		{ min-width: 696px;	list-style: none; padding-top: 20px;}
+ul#horizontal-list li 		{ display: inline; }
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
